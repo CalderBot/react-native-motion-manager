@@ -11,6 +11,8 @@
 		BB9CC8081AE0A5FE008A1D08 /* Gyroscope.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9CC8071AE0A5FE008A1D08 /* Gyroscope.m */; };
 		BB9CC80E1AE0A707008A1D08 /* Accelerometer.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9CC80B1AE0A707008A1D08 /* Accelerometer.m */; };
 		BB9CC80F1AE0A707008A1D08 /* Magnetometer.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9CC80D1AE0A707008A1D08 /* Magnetometer.m */; };
+		EE7038AC21C59DDD00FFB0BF /* DeviceMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7038AA21C59DDC00FFB0BF /* DeviceMotion.m */; };
+		EE7038AD21C59DDD00FFB0BF /* Altimeter.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7038AB21C59DDC00FFB0BF /* Altimeter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,10 @@
 		BB9CC80B1AE0A707008A1D08 /* Accelerometer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Accelerometer.m; sourceTree = "<group>"; };
 		BB9CC80C1AE0A707008A1D08 /* Magnetometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Magnetometer.h; sourceTree = "<group>"; };
 		BB9CC80D1AE0A707008A1D08 /* Magnetometer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Magnetometer.m; sourceTree = "<group>"; };
+		EE7038A821C59DDC00FFB0BF /* DeviceMotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceMotion.h; sourceTree = "<group>"; };
+		EE7038A921C59DDC00FFB0BF /* Altimeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Altimeter.h; sourceTree = "<group>"; };
+		EE7038AA21C59DDC00FFB0BF /* DeviceMotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceMotion.m; sourceTree = "<group>"; };
+		EE7038AB21C59DDC00FFB0BF /* Altimeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Altimeter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,10 @@
 		BB9CC7EF1AE0A2EB008A1D08 /* RNMotionManager */ = {
 			isa = PBXGroup;
 			children = (
+				EE7038A921C59DDC00FFB0BF /* Altimeter.h */,
+				EE7038AB21C59DDC00FFB0BF /* Altimeter.m */,
+				EE7038A821C59DDC00FFB0BF /* DeviceMotion.h */,
+				EE7038AA21C59DDC00FFB0BF /* DeviceMotion.m */,
 				BB9CC8071AE0A5FE008A1D08 /* Gyroscope.m */,
 				BB9CC8091AE0A614008A1D08 /* Gyroscope.h */,
 				BB9CC80A1AE0A707008A1D08 /* Accelerometer.h */,
@@ -204,6 +214,8 @@
 				BB9CC80E1AE0A707008A1D08 /* Accelerometer.m in Sources */,
 				BB9CC80F1AE0A707008A1D08 /* Magnetometer.m in Sources */,
 				BB9CC8081AE0A5FE008A1D08 /* Gyroscope.m in Sources */,
+				EE7038AD21C59DDD00FFB0BF /* Altimeter.m in Sources */,
+				EE7038AC21C59DDD00FFB0BF /* DeviceMotion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +318,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../../React/**",
 					"$(SRCROOT)/node_modules/react-native/React/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
@@ -321,6 +334,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../../React/**",
 					"$(SRCROOT)/node_modules/react-native/React/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
