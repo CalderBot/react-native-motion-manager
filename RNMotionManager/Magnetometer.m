@@ -75,7 +75,7 @@ RCT_EXPORT_METHOD(startMagnetometerUpdates) {
   NSLog(@"startMagnetometerUpdates");
   [self->_motionManager startMagnetometerUpdates];
 
-  /* Receive the ccelerometer data on this block */
+  /* Receive the magnetometer data on this block */
   [self->_motionManager startMagnetometerUpdatesToQueue:[NSOperationQueue mainQueue]
                                              withHandler:^(CMMagnetometerData *magnetometerData, NSError *error)
    {

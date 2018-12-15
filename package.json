@@ -1,7 +1,7 @@
 {
   "name": "react-native-motion-manager",
   "version": "0.0.6",
-  "description": "A react-native interface for using the Gyroscope, Accelerometer and Magnetometer",
+  "description": "A react-native interface for using the Accelerometer, Altimeter, Gyroscope, and Magnetometer",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,6 +12,7 @@
     "ios",
     "CMMotionManager",
     "MotionManager",
+    "Altimeter",
     "Gyroscope",
     "Accelerometer",
     "Magnetometer"
@@ -22,7 +23,8 @@
   },
   "author": "Patrick Williams <pwmckenna@gmail.com> (http://pwmckenna.com/)",
   "contributors": [
-    "Brent Vatne <brentvatne@gmail.com>"
+    "Brent Vatne <brentvatne@gmail.com>",
+    "Calder Daenzer <calder.daenzer@gmail.com>"
   ],
   "license": "MIT",
   "bugs": {
