@@ -15,5 +15,6 @@
 - (void) getAccelerometerData:(RCTResponseSenderBlock) cb;
 - (void) startAccelerometerUpdates;
 - (void) stopAccelerometerUpdates;
++ (BOOL) requiresMainQueueSetup;
 
 @end

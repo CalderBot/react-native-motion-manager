@@ -166,4 +166,8 @@ RCT_EXPORT_METHOD(stopDeviceMotionUpdates) {
     [self->_motionManager stopDeviceMotionUpdates];
 }
 
++ (BOOL)requiresMainQueueSetup {
+    return NO;
+}
+
 @end

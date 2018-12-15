@@ -15,5 +15,6 @@
 - (void) getGyroData:(RCTResponseSenderBlock) cb;
 - (void) startGyroUpdates;
 - (void) stopGyroUpdates;
++ (BOOL) requiresMainQueueSetup;
 
 @end

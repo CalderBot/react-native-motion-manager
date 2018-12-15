@@ -102,4 +102,8 @@ RCT_EXPORT_METHOD(stopMagnetometerUpdates) {
   [self->_motionManager stopMagnetometerUpdates];
 }
 
++ (BOOL)requiresMainQueueSetup {
+    return NO;
+}
+
 @end

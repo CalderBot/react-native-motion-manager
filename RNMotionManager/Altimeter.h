@@ -11,5 +11,6 @@
 }
 - (void) startRelativeAltitudeUpdates;
 - (void) stopRelativeAltitudeUpdates;
++ (BOOL) requiresMainQueueSetup;
 
 @end

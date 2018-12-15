@@ -9,5 +9,6 @@
 - (void) getDeviceMotionData:(RCTResponseSenderBlock) cb;
 - (void) startDeviceMotionUpdates;
 - (void) stopDeviceMotionUpdates;
++ (BOOL) requiresMainQueueSetup;
 
 @end

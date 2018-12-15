@@ -102,4 +102,8 @@ RCT_EXPORT_METHOD(stopAccelerometerUpdates) {
   [self->_motionManager stopAccelerometerUpdates];
 }
 
++ (BOOL)requiresMainQueueSetup {
+    return NO;
+}
+
 @end

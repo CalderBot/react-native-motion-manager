@@ -47,5 +47,9 @@ RCT_EXPORT_METHOD(stopRelativeAltitudeUpdates) {
     [self->_altimeter stopRelativeAltitudeUpdates];
 }
 
++ (BOOL)requiresMainQueueSetup {
+    return NO;
+}
+
 @end
 

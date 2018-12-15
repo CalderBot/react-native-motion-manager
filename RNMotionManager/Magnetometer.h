@@ -15,5 +15,6 @@
 - (void) getMagnetometerData:(RCTResponseSenderBlock) cb;
 - (void) startMagnetometerUpdates;
 - (void) stopMagnetometerUpdates;
++ (BOOL) requiresMainQueueSetup;
 
 @end
